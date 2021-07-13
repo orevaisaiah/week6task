@@ -1,0 +1,29 @@
+.div{
+    margin-top: 25px;
+    margin-left: 15px;
+    color: rgb(252, 198, 104);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div2{
+    margin-top: 5px;
+}
+.p2{
+    margin: -8px 0 0 5px;
+    letter-spacing: 2px;
+    color: black;
+}
+.p{
+    margin-left: 5px;
+    letter-spacing: 2px;
+}
+.p3{
+    line-height: 15px;
+    margin: 25px 0 13px 5px;
+}
+.p5{
+    margin-top: -5px;
+    padding: 0;
+}
+.p, .p2, .p3, .p5{
+    font-weight: 700;
+}

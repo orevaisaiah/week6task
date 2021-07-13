@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+}
+body {
+    font-size: 20px;
+    font-weight: 200;
+}
+.container-left {
+    background: url(./Background.jpg);
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 33.333333%;
+    color: azure;
+}
+@media (max-width: 768px) {
+    .container-left{
+        height: 55vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+    .carou{
+        width: 350px !important;
+        height: 250px !important;
+        position: relative;
+        margin: auto;
+    }
+}
+@media (max-width: 564px) {
+    .carou{
+        width: auto !important;
+        height: 250px !important;
+        position: relative;
+        margin: auto;
+
+    }
+}
+.avatar {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 15px;
+}
+.height {
+    height: 100%;
+}
+section{
+    margin: 60px;
+}
+h1 {
+    font-size: 65px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+section p {
+    text-align: justify;
+}
+section img {
+    max-width: 100%;
+    width: 350px;
+    height: 250px;
+    object-fit: fill;
+    position: relative;
+}
+a {
+    margin: 10px 23px 0 0;
+    color: grey;
+    font-size: 20px;
+}
+.caro{
+    
+}
+.container-right {
+    background-color: rgb(243, 241, 241);
+}
